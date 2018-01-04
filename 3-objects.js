@@ -60,3 +60,17 @@ function listValues(booksArray, key) {
 
 
 // helper.test(getAvailableBooks(books), ['The Road Ahead', 'Lord of the Rings'])
+
+/* ---------------------- EXERCISE 3 ---------------------- */
+/* 3.1 Define an object named fluffycat with the following properties/methods:
+    - name: fluffy
+    - type: pet
+    - makeSound() // return 'meow!'
+    - introduceSelf() // return 'meow! my name is fluffy'
+*/
+
+helper.test(fluffycat.name, 'fluffy')
+helper.test(fluffycat.type, 'pet')
+helper.test(fluffycat.makeSound(), 'meow!')
+helper.test(fluffycat.introduceSelf(), 'meow! my name is fluffy')
+
