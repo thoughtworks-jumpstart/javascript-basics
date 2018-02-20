@@ -69,8 +69,8 @@ function listValues(booksArray, key) {
     - introduceSelf() // return 'meow! my name is fluffy'
 */
 
-helper.test(fluffycat.name, 'fluffy')
-helper.test(fluffycat.type, 'pet')
-helper.test(fluffycat.makeSound(), 'meow!')
-helper.test(fluffycat.introduceSelf(), 'meow! my name is fluffy')
+// helper.test(fluffycat.name, 'fluffy')
+// helper.test(fluffycat.type, 'pet')
+// helper.test(fluffycat.makeSound(), 'meow!')
+// helper.test(fluffycat.introduceSelf(), 'meow! my name is fluffy')
 
