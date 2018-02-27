@@ -15,7 +15,9 @@ assertEquals(addDashes("025486"), "0-254-8-6"); // check that your function work
 /* ---------------------- EXERCISE 2 ---------------------- */
 // Write a Javascript function to find the most frequent item of an array. It should return a string denoting the item and the number of times it occurs in the array. (Sample input: [3, 'a', 'a', 'a', 2, 3, 'a', 3, 'a', 2, 4, 9, 3], expected output : 'a (5 times)')
 
-function mostFrequentItem(arr) {}
+function mostFrequentItem(arr) {
+  
+}
 
 // uncomment the following test to run it
 // assertEquals(mostFrequentItem(['a', 'a', 'b']), 'a')
@@ -40,6 +42,6 @@ function union() {}
 /* ---------------------- EXERCISE 5 ---------------------- */
 // Write a Javascript function to compute sum of a union. (Hint: Reuse the union() function which you wrote!) (Sample input: intersection([1, 2, 3], [1, 2]), expected output: 3)
 function unionSum() {}
-// assertEquals(unionSum([1, 2, 3], [1, 2]), 3)
-// assertEquals(unionSum([1, 2, 3, 4], [2, 3, 4]), 9)
-// assertEquals(unionSum([2000, 50, 551, 550, 23], [551, 50, 23]), 624)
+// assertEquals(unionSum([1, 2, 3], [1, 2]), 6)
+// assertEquals(unionSum([1, 2, 3, 4], [2, 3, 4]), 10)
+// assertEquals(unionSum([2000, 50, 551, 550, 23], [551, 50, 23]), 3174)
