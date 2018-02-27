@@ -1,5 +1,4 @@
 # Javascript Basics
-david's changes
 Complete the following exercises to improve your understanding of functions, arrays and objects in javascript!
 
 ### Getting Started
