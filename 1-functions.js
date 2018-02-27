@@ -4,7 +4,7 @@ var assertEquals = require("./test-helper");
 // Define a function that returns 'hello world'
 function hello() {
   return "hello world";
-
+}
 
 assertEquals(hello(), "hello world");
 
