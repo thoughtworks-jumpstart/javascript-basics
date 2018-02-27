@@ -1,4 +1,4 @@
-var helper = require("./test-helper");
+var assertEquals = require("./test-helper");
 
 /* ---------------------- EXERCISE 1 ---------------------- */
 // Write a JavaScript function which accept a number as input and insert dashes (-) between each two even numbers. (Sample input: 025486, Sample output: 0-254-8-6)

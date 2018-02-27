@@ -1,4 +1,4 @@
-var helper = require("./test-helper");
+var assertEquals = require("./test-helper");
 
 /* ---------------------- EXERCISE 1 ---------------------- */
 // Define a function that returns 'hello world'

@@ -1,5 +1,4 @@
 var assertEquals = require("./test-helper");
-assertEquals(1, 1);
 
 /* ---------------------- EXERCISE 1 ---------------------- */
 // Define a function to list the properties of a JavaScript object. Go to the editor
