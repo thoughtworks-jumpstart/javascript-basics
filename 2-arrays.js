@@ -15,7 +15,7 @@ function evenNumbersOnly(array) {}
 // assertEquals(evenNumbersOnly([10, 11, 12]), [10, 12]);
 
 // Define a function that returns the sum of even numbers in the array
-// hint: reuse the 2 functions that you defined earlier!
+// hint: reuse the 2 functions that you defined earlier.
 function sumEvenNumbers(array) {}
 
 // assertEquals(sumEvenNumbers([1, 2, 3, 4]), 6);
