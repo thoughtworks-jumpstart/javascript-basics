@@ -11,10 +11,10 @@ function hello() {
 /* ---------------------- EXERCISE 2 ---------------------- */
 // Define a function, greet(personName), that returns 'hello specificPersonName'. If no name is supplied, return 'hello world'
 function greet(name) {
-
+  
 }
 
-// assertEquals(greet("tom"), "hello to");
+// assertEquals(greet("tom"), "hello tom");
 // assertEquals(greet(), 'hello world')
 
 /* ---------------------- EXERCISE 3 ---------------------- */
