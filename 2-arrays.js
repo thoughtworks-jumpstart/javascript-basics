@@ -6,8 +6,8 @@ function sum(array) {
 
 }
 
+// assertEquals(sum([1, 2]), 3);
 // assertEquals(sum([1, 2, 3, 4]), 10);
-// assertEquals(sum([10, 10, 10]), 30);
 
 /* ---------------------- EXERCISE 2 ---------------------- */
 // Define a function that returns an array of even numbers
@@ -28,7 +28,7 @@ function sumEvenNumbers(array) {
 // assertEquals(sumEvenNumbers([1, 2, 3, 4]), 6);
 // assertEquals(sumEvenNumbers([10, 11, 12]), 22);
 
-/* ---------------------- EXERCISE 4 ---------------------- */
+/* ---------------------- BONUS: EXERCISE 4 ---------------------- */
 // Write a Javascript function to compute the union of two arrays. the returned array should be sorted in ascending order (Sample input: union([1, 2, 3], [100, 2, 1, 10]), expected output: [1, 2, 3, 10, 100])
 function sortedUnion(arr1, arr2) {
 
