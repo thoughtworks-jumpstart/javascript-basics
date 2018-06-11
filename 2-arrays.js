@@ -6,6 +6,7 @@ function sum(array) {
 
 }
 
+// Assertions (do not change)
 assertEquals(sum([1, 2]), 3);
 assertEquals(sum([1, 2, 3, 4]), 10);
 
@@ -15,6 +16,7 @@ function evenNumbersOnly(array) {
 
 }
 
+// Assertions (do not change)
 assertEquals(evenNumbersOnly([1, 2, 3, 4]), [2, 4]);
 assertEquals(evenNumbersOnly([10, 11, 12]), [10, 12]);
 
@@ -25,6 +27,7 @@ function sumEvenNumbers(array) {
 
 }
 
+// Assertions (do not change)
 assertEquals(sumEvenNumbers([1, 2, 3, 4]), 6);
 assertEquals(sumEvenNumbers([10, 11, 12]), 22);
 
@@ -34,6 +37,7 @@ function sortedUnion(arr1, arr2) {
 
 }
 
+// Assertions (do not change)
 assertEquals(sortedUnion([1], [2]), [1, 2]);
 assertEquals(sortedUnion([1, 3], [2]), [1, 2, 3]);
 assertEquals(sortedUnion([1, 3], [11, 2]), [1, 2, 3, 11]);

@@ -24,6 +24,7 @@ function listTitles(booksArray) {
 
 }
 
+// Assertions (do not change)
 assertEquals(listTitles(books), ['The Road Ahead', 'Lord of the Rings', 'Harry Potter'])
 
 /* 2. Define a function listAuthors(booksArray) that takes in an array of book objects
@@ -33,6 +34,7 @@ function listAuthors(booksArray) {
 
 }
 
+// Assertions (do not change)
 assertEquals(listAuthors(books), ['Bill Gates', 'JRR Tolkkien', 'JK Rowling'])
 
 /* 3. Define a more general function listValues(booksArray, key) that takes in an array
@@ -42,6 +44,7 @@ function listValues(booksArray, key) {
 
 }
 
+// Assertions (do not change)
 assertEquals(listValues(books, 'author'), ['Bill Gates', 'JRR Tolkkien', 'JK Rowling'])
 assertEquals(listValues(books, 'title'), ['The Road Ahead', 'Lord of the Rings', 'Harry Potter'])
 
@@ -51,4 +54,5 @@ function getAvailableBooks(booksArray) {
 
 }
 
+// Assertions (do not change)
 assertEquals(getAvailableBooks(books), ['The Road Ahead', 'Lord of the Rings'])
