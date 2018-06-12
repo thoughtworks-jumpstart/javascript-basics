@@ -5,12 +5,14 @@ module.exports = function assertEquals(actualValue, expectedValue) {
 		assert.deepEqual(actualValue, expectedValue);
 		console.log(
 			"\x1b[32m",
-			`  \u2713 TEST PASSED!: expected [${expectedValue}] and got [${actualValue}]`
+			`  \u2713 TEST PASSED!: expected [${expectedValue}] and got [${actualValue}]`,
+			"\x1b[0m"
 		);
 	} catch (e) {
 		console.log(
 			"\x1b[31m",
-			`  \u00D7 TEST FAILED: expected "${e.expected}" but got "${e.actual}" instead`
+			`  \u00D7 TEST FAILED: expected "${e.expected}" but got "${e.actual}" instead`,
+			"\x1b[0m"
 		);
 	};
 }
