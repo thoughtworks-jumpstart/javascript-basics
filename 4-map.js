@@ -1,5 +1,17 @@
 var assertEquals = require("./assert-helper");
 
+/* ---------------------- EXERCISE 0 ---------------------- */
+// define a function that takes in array of strings with every element converted to uppercase
+function convertToUpperCase(array) {
+
+}
+
+
+// Assertions (do not change)
+assertEquals(convertToUpperCase(["hello"]), ["HELLO"]);
+assertEquals(convertToUpperCase(["hello", "gOOdBYE"]), ["HELLO", "GOODBYE"]);
+
+
 /* ---------------------- EXERCISE 1 ---------------------- */
 // define a function that multiplies all elements in an array by 10
 function multiplyBy10(array) {
