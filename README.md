@@ -1,5 +1,8 @@
 # Javascript Basics
-Complete the following exercises to improve your understanding of functions, arrays and objects in javascript!
+Complete the following exercises to improve your understanding of functions,
+arrays and objects in javascript!
+
+[See the solution here][solution].
 
 ### Getting Started
 - Fork this repo
@@ -11,5 +14,4 @@ Complete the following exercises to improve your understanding of functions, arr
 - To test your code, run `node myfile.js` (e.g. `node 1-functions.js`) in your terminal
 - For each function, add 1-2 more test cases to confirm that your function really works.
 
----
-Copyright (c) 2018 ThoughtWorks. For personal use and training purposes only; not to be copied or distributed without further approval.
+[solution]: https://github.com/thoughtworks-jumpstart/javascript-basics/tree/solution
