@@ -1,5 +1,17 @@
 const assertEquals = require("./assert-helper");
 
+/* ---------------------- EXERCISE 0 ---------------------- */
+// define a function that returns the smallest number using sort
+
+function getSmallest(numbers) {
+
+  
+}
+
+// Assertions (do not change)
+assertEquals(getSmallest([1, 2, 3, 4]), 1);
+assertEquals(getSmallest([4, 3, 2, 1]), 1);
+
 /* ---------------------- EXERCISE 1 ---------------------- */
 // Define a function that returns the sum of an array
 function sum(array) {
