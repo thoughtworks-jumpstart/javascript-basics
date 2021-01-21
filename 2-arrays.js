@@ -66,3 +66,4 @@ function sortedUnion(arr1, arr2) {
 assertEquals(sortedUnion([1], [2]), [1, 2]);
 assertEquals(sortedUnion([1, 3], [2]), [1, 2, 3]);
 assertEquals(sortedUnion([1, 3], [11, 2]), [1, 2, 3, 11]);
+assertEquals(sortedUnion([1, 2, 3], [100, 2, 1, 10]), [1, 2, 3, 10, 100]);
